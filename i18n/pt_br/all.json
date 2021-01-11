@@ -1,0 +1,41 @@
+{
+    "login_page": {
+        "title": "Gamificação",
+        "login_link": "Login",
+        "join_link": "Cadastre-se",
+        "password_remember_link": "Lembrar senhar",
+        "login_form": {
+            "title": "Login",
+            "indetificarionLabel": "Identificação",
+            "msgIndetificarionIsEmpty": "Por favor insira a sua identificação.",
+            "passwordLabel": "Senha",
+            "msgPasswordIsEmpty": "Por favor insira a sua senha.",
+            "enterButton": "Entrar",
+            "msgInvalidLogin": "Identificação ou senha inválidos!"
+        },
+        "password_remember_form": {
+            "title": "Lembrar senhar",
+            "indetificarion_label": "Indetificarion",
+            "send_button": "Send"
+        },
+        "join_form": {
+            "title": "Cadastre-se",
+            "name_label": "Name",
+            "emal_label": "e-mail",
+            "indetificarion_label": "Indetificarion",
+            "password_label": "Senha",
+            "submit_button": "Submit"
+        }
+    },
+    "home_page": {
+        "title": "Gamificação",
+        "my_groups_participate_title": "My Groups",
+        "my_groups_participate_subtitle": "Participate",
+        "my_groups_manage_title": "My Groups",
+        "my_groups_manage_subtitle": "Manage",
+        "my_tasks": "My Tasks",
+        "my_tasks_subtitle": "",
+        "my_awards": "Awards",
+        "my_awards_subtitle": ""
+    }
+}
