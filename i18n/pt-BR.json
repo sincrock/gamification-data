@@ -1,34 +1,38 @@
 {
     "login_page": {
-        "title": "Gamification",
+        "title": "Gamificação",
         "login_link": "Login",
-        "join_link": "Join",
-        "password_remember_link": "Password remember",
+        "join_link": "Cadastre-se",
+        "password_remember_link": "Lembrar senhar",
         "login_form": {
             "title": "Login",
-            "indetificarionLabel": "Indetificarion",
-            "msgIndetificarionIsEmpty": "Please enter your indetificarion.",
-            "passwordLabel": "Password",
-            "msgPasswordIsEmpty": "Please enter your password.",
-            "enter_button": "Enter",
-            "msgInvalidLogin": "Indetificarion or password invalid!"
+            "indetificarion": {
+                "label": "Identificação",
+                "msg_IsEmpty": "Por favor insira a sua identificação."
+            },
+            "password": {
+                "label": "Senha",
+                "msg_IsEmpty": "Por favor insira a sua senha."
+            },
+            "enter_button": "Entrar",
+            "msg_invalid_login": "Identificação ou senha inválidos!"
         },
         "password_remember_form": {
-            "title": "Password remember",
+            "title": "Lembrar senhar",
             "indetificarion_label": "Indetificarion",
             "send_button": "Send"
         },
         "join_form": {
-            "title": "Join",
+            "title": "Cadastre-se",
             "name_label": "Name",
             "emal_label": "e-mail",
             "indetificarion_label": "Indetificarion",
-            "password_label": "Password",
+            "password_label": "Senha",
             "submit_button": "Submit"
         }
     },
     "home_page": {
-        "title": "Gamification",
+        "title": "Gamificação",
         "my_groups_participate_title": "My Groups",
         "my_groups_participate_subtitle": "Participate",
         "my_groups_manage_title": "My Groups",
