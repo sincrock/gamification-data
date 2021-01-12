@@ -19,15 +19,30 @@
         },
         "password_remember_form": {
             "title": "Password remember",
-            "indetificarion_label": "Indetificarion",
+            "indetificarion": {
+                "label": "Indetificarion",
+                "msg_IsEmpty": "Please enter your indetificarion."
+            },
             "send_button": "Send"
         },
         "join_form": {
             "title": "Join",
-            "name_label": "Name",
-            "emal_label": "e-mail",
-            "indetificarion_label": "Indetificarion",
-            "password_label": "Password",
+            "name": {
+                "label": "Name",
+                "msg_IsEmpty": "Please enter your name."
+            },
+            "email": {
+                "label": "e-mail",
+                "msg_IsEmpty": "Please enter your e-mail."
+            },
+            "indetificarion": {
+                "label": "Indetificarion",
+                "msg_IsEmpty": "Please enter your indetificarion."
+            },
+            "password": {
+                "label": "Password",
+                "msg_IsEmpty": "Please enter your password."
+            },
             "submit_button": "Submit"
         }
     },

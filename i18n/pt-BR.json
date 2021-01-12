@@ -19,16 +19,31 @@
         },
         "password_remember_form": {
             "title": "Lembrar senhar",
-            "indetificarion_label": "Indetificarion",
-            "send_button": "Send"
+            "indetificarion": {
+                "label": "Identificação",
+                "msg_IsEmpty": "Por favor insira a sua identificação."
+            },
+            "send_button": "Enviar"
         },
         "join_form": {
             "title": "Cadastre-se",
-            "name_label": "Name",
-            "emal_label": "e-mail",
-            "indetificarion_label": "Indetificarion",
-            "password_label": "Senha",
-            "submit_button": "Submit"
+            "name": {
+                "label": "Nome",
+                "msg_IsEmpty": "Por favor insira o seu nome."
+            },
+            "email": {
+                "label": "e-mail",
+                "msg_IsEmpty": "Por favor insira o seu e-mail."
+            },
+            "indetificarion": {
+                "label": "Identificação",
+                "msg_IsEmpty": "Por favor insira a sua identificação."
+            },
+            "password": {
+                "label": "Senha",
+                "msg_IsEmpty": "Por favor insira a sua senha."
+            },
+            "submit_button": "Submeter"
         }
     },
     "home_page": {
