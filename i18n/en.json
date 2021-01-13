@@ -1,4 +1,9 @@
 {
+    "application": {
+        "name": "Gamification",
+        "version": "0.1",
+        "legalese": "Gamification is the application of typical elements of game playing (e.g. point scoring, competition with others, rules of play) to other areas of activity, typically as an online marketing technique to encourage engagement with a product or service."
+    },
     "login_page": {
         "title": "Gamification",
         "login_link": "Login",
@@ -48,13 +53,44 @@
     },
     "home_page": {
         "title": "Gamification",
-        "my_groups_participate_title": "My Groups",
-        "my_groups_participate_subtitle": "Participate",
-        "my_groups_manage_title": "My Groups",
-        "my_groups_manage_subtitle": "Manage",
-        "my_tasks": "My Tasks",
-        "my_tasks_subtitle": "",
-        "my_awards": "Awards",
-        "my_awards_subtitle": ""
+        "synchronizing": "Synchronizing...",
+        "grid": {
+            "my_groups_participate": {
+                "title": "My Groups",
+                "subtitle": "Participate"
+            },
+            "my_groups_manage": {
+                "title": "My Groups",
+                "subtitle": "Manage"
+            },
+            "my_tasks": {
+                "title": "My Tasks",
+                "subtitle": ""
+            },
+            "my_awards": {
+                "title": "My Awards",
+                "subtitle": ""
+            }
+        },
+        "drawer": {
+            "synchronize": {
+                "title": "Synchronize",
+                "subtitle": "Send the data to the server and load the data from the server."
+            },
+            "my_profile": {
+                "title": "My profile"
+            },
+            "settings": {
+                "title": "Settings"
+            },
+            "exit": {
+                "title": "Exit",
+                "subtitle": "Clear user data."
+            },
+            "about": {
+                "title": "About",
+                "subtitle": "Information about this App."
+            }
+        }
     }
 }

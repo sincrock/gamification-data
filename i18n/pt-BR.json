@@ -1,4 +1,9 @@
 {
+    "application": {
+        "name": "Gamificação",
+        "version": "0.1",
+        "legalese": "Gamificação é a aplicação de elementos típicos do jogo (por exemplo, pontuação, competição com outros, regras de jogo) para outras áreas de atividade, normalmente como uma técnica de marketing online para encorajar o envolvimento com um produto ou serviço."
+    },
     "login_page": {
         "title": "Gamificação",
         "login_link": "Login",
@@ -48,13 +53,44 @@
     },
     "home_page": {
         "title": "Gamificação",
-        "my_groups_participate_title": "My Groups",
-        "my_groups_participate_subtitle": "Participate",
-        "my_groups_manage_title": "My Groups",
-        "my_groups_manage_subtitle": "Manage",
-        "my_tasks": "My Tasks",
-        "my_tasks_subtitle": "",
-        "my_awards": "Awards",
-        "my_awards_subtitle": ""
+        "synchronizing": "Sincronizando...",
+        "grid": {
+            "my_groups_participate": {
+                "title": "Meus Grupos",
+                "subtitle": "Participo"
+            },
+            "my_groups_manage": {
+                "title": "Meus Grupos",
+                "subtitle": "Administro"
+            },
+            "my_tasks": {
+                "title": "Minhas Tarefas",
+                "subtitle": ""
+            },
+            "my_awards": {
+                "title": "Meus Prêmios",
+                "subtitle": ""
+            }
+        },
+        "drawer": {
+            "synchronize": {
+                "title": "Sincronizar",
+                "subtitle": "Envia os dados para o servidor e carega os dados do servidor."
+            },
+            "my_profile": {
+                "title": "Meu Perfil"
+            },
+            "settings": {
+                "title": "Configurações"
+            },
+            "exit": {
+                "title": "Sair",
+                "subtitle": "Limpa os dados do usuário."
+            },
+            "about": {
+                "title": "Sobre",
+                "subtitle": "Informações sobre este App."
+            }
+        }
     }
 }
