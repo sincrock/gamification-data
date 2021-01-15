@@ -9,6 +9,7 @@
         "login_link": "Login",
         "join_link": "Cadastre-se",
         "password_remember_link": "Lembrar senhar",
+        "loading": "Carregando...",
         "login_form": {
             "title": "Login",
             "indetificarion": {

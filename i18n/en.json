@@ -9,6 +9,7 @@
         "login_link": "Login",
         "join_link": "Join",
         "password_remember_link": "Password remember",
+        "loading": "Loading...",
         "login_form": {
             "title": "Login",
             "indetificarion": {
