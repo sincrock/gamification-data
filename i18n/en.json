@@ -10,6 +10,8 @@
         "join_link": "Join",
         "password_remember_link": "Password remember",
         "loading": "Loading...",
+        "validating": "VSalidating...",
+        "synchronizing": "Synchronizing...",
         "login_form": {
             "title": "Login",
             "indetificarion": {

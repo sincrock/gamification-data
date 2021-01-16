@@ -10,6 +10,8 @@
         "join_link": "Cadastre-se",
         "password_remember_link": "Lembrar senhar",
         "loading": "Carregando...",
+        "validating": "Validando...",
+        "synchronizing": "Sincronizando...",
         "login_form": {
             "title": "Login",
             "indetificarion": {
