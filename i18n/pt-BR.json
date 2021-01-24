@@ -16,10 +16,12 @@
             "title": "Login",
             "indetificarion": {
                 "label": "Identificação",
+                "semanticsLabel": "Identificação de acesso",
                 "msg_IsEmpty": "Por favor insira a sua identificação."
             },
             "password": {
                 "label": "Senha",
+                "semanticsLabel": "Senha de acesso",
                 "msg_IsEmpty": "Por favor insira a sua senha."
             },
             "enter_button": "Entrar",
@@ -29,6 +31,7 @@
             "title": "Lembrar senhar",
             "indetificarion": {
                 "label": "Identificação",
+                "semanticsLabel": "Identificação de acesso",
                 "msg_IsEmpty": "Por favor insira a sua identificação."
             },
             "send_button": "Enviar"
@@ -36,22 +39,29 @@
         "join_form": {
             "title": "Cadastre-se",
             "name": {
-                "label": "Nome",
+                "label": "Nome Completo",
+                "semanticsLabel": "Nome Completo",
                 "msg_IsEmpty": "Por favor insira o seu nome."
             },
             "email": {
                 "label": "e-mail",
+                "semanticsLabel": "e-mail",
                 "msg_IsEmpty": "Por favor insira o seu e-mail."
             },
             "indetificarion": {
                 "label": "Identificação",
+                "semanticsLabel": "Identificação de acesso",
                 "msg_IsEmpty": "Por favor insira a sua identificação."
             },
             "password": {
                 "label": "Senha",
+                "semanticsLabel": "Senha de acesso",
                 "msg_IsEmpty": "Por favor insira a sua senha."
             },
             "submit_button": "Submeter"
+        },
+        "semanticsLabel": {
+            "logo": "Imagem de logo deste App"
         }
     },
     "home_page": {
@@ -78,7 +88,7 @@
         "drawer": {
             "synchronize": {
                 "title": "Sincronizar",
-                "subtitle": "Envia os dados para o servidor e carega os dados do servidor."
+                "subtitle": "Envia os dados para o servidor e carrega os dados do servidor."
             },
             "my_profile": {
                 "title": "Meu Perfil"

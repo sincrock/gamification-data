@@ -16,10 +16,12 @@
             "title": "Login",
             "indetificarion": {
                 "label": "Indetificarion",
+                "semanticsLabel": "Access identification",
                 "msg_IsEmpty": "Please enter your indetificarion."
             },
             "password": {
                 "label": "Password",
+                "semanticsLabel": "Access password",
                 "msg_IsEmpty": "Please enter your password."
             },
             "enter_button": "Enter",
@@ -29,6 +31,7 @@
             "title": "Password remember",
             "indetificarion": {
                 "label": "Indetificarion",
+                "semanticsLabel": "Access identification",
                 "msg_IsEmpty": "Please enter your indetificarion."
             },
             "send_button": "Send"
@@ -37,21 +40,28 @@
             "title": "Join",
             "name": {
                 "label": "Name",
+                "semanticsLabel": "Full name",
                 "msg_IsEmpty": "Please enter your name."
             },
             "email": {
                 "label": "e-mail",
+                "semanticsLabel": "e-mail",
                 "msg_IsEmpty": "Please enter your e-mail."
             },
             "indetificarion": {
                 "label": "Indetificarion",
+                "semanticsLabel": "Access identification",
                 "msg_IsEmpty": "Please enter your indetificarion."
             },
             "password": {
                 "label": "Password",
+                "semanticsLabel": "Access password",
                 "msg_IsEmpty": "Please enter your password."
             },
             "submit_button": "Submit"
+        },
+        "semanticsLabel": {
+            "logo": "Logo image of this App"
         }
     },
     "home_page": {
