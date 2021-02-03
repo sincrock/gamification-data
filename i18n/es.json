@@ -1,0 +1,290 @@
+{
+    "application": {
+        "name": "Gamificación",
+        "version": "1.0.0",
+        "legalese": "La gamificación es la aplicación de elementos típicos del juego (por ejemplo, puntuación, competencia con otros, reglas del juego) a otras áreas de actividad, generalmente como una técnica de marketing en línea para fomentar el compromiso con un producto o servicio."
+    },
+    "login_page": {
+        "title": "Gamificación",
+        "login_link": "Iniciar sesión",
+        "join_link": "Registrarse",
+        "password_remember_link": "Recordar contraseña",
+        "loading": "Cargando...",
+        "validating": "Validando...",
+        "synchronizing": "Sincronizando...",
+        "login_form": {
+            "title": "Iniciar sesión",
+            "indetificarion": {
+                "label": "Identificación",
+                "semanticsLabel": "Identificación de acceso",
+                "msg_IsEmpty": "Introduzca su identificación."
+            },
+            "password": {
+                "label": "Contraseña",
+                "semanticsLabel": "Contraseña de acceso",
+                "msg_IsEmpty": "Ingrese su contraseña."
+            },
+            "enter_button": "Enter",
+            "msg_invalid_login": "¡Identificación o contraseña no válidas!"
+        },
+        "password_remember_form": {
+            "title": "Recordar contraseña",
+            "indetificarion": {
+                "label": "Identificación",
+                "semanticsLabel": "Identificación de acceso",
+                "msg_IsEmpty": "Introduzca su identificación."
+            },
+            "send_button": "Enviar",
+            "msg_remember_send": "Se ha enviado un mensaje con la contraseña de este usuario al correo electrónico registrado.",
+            "msg_remember_error": "Identificación no registrada."
+        },
+        "join_form": {
+            "title": "Registrarse",
+            "name": {
+                "label": "Nombre completo",
+                "semanticsLabel": "Nombre completo",
+                "msg_IsEmpty": "Introduzca su nombre."
+            },
+            "email": {
+                "label": "correo electrónico",
+                "semanticsLabel": "correo electrónico",
+                "msg_IsEmpty": "Ingrese su correo electrónico."
+            },
+            "indetificarion": {
+                "label": "Identificación",
+                "semanticsLabel": "Identificación de acceso",
+                "msg_IsEmpty": "Introduzca su identificación."
+            },
+            "password": {
+                "label": "Contraseña",
+                "semanticsLabel": "Contraseña de acceso",
+                "msg_IsEmpty": "Ingrese su contraseña."
+            },
+            "submit_button": "Enviar",
+            "msg_join_submit": "Registro completado.",
+            "msg_join_error": "Identificación o correo electrónico ya registrado."
+        },
+        "semanticsLabel": {
+            "logo": "Imagen del logotipo de esta aplicación"
+        }
+    },
+    "home_page": {
+        "title": "Gamificación",
+        "synchronizing": "Sincronizando...",
+        "grid": {
+            "my_groups": {
+                "title": "Mis grupos",
+                "subtitle": ""
+            },
+            "my_tasks": {
+                "title": "Mis tareas",
+                "subtitle": ""
+            },
+            "my_awards": {
+                "title": "Mis premios",
+                "subtitle": ""
+            },
+            "people": {
+                "title": "Personas",
+                "subtitle": ""
+            }
+        },
+        "drawer": {
+            "synchronize": {
+                "title": "Sincronizar",
+                "subtitle": "Envía los datos al servidor y carga los datos desde el servidor."
+            },
+            "my_profile": {
+                "title": "Mi perfil"
+            },
+            "settings": {
+                "title": "Configuración"
+            },
+            "exit": {
+                "title": "Cerrar sesión",
+                "subtitle": "Borrar datos de usuario."
+            },
+            "about": {
+                "title": "Acerca de",
+                "subtitle": "Información sobre esta aplicación."
+            }
+        }
+    },
+    "config": {
+        "title": "Configuración",
+        "theme": {
+            "label": "Tema:",
+            "system": "Sistema",
+            "light": "Seguro",
+            "dark": "Oscuro"
+        }
+    },
+    "profile": {
+        "title": "Mi perfil"
+    },
+    "person": {
+        "title_list": "Personas",
+        "title_form": "Persona",
+        "add": "Nueva persona",
+        "email": {
+            "label_read": "correo electrónico:",
+            "label_write": "correo electrónico",
+            "text_IsEmpty": "Introduzca un correo electrónico.",
+            "invalid": "Ingrese un correo electrónico válido."
+        },
+        "msg": {
+            "saved": "Persona grabada",
+            "not_found": "No se encontraron personas.",
+            "confirm_delete": "¿Quieres eliminar a esta persona?",
+            "delete": "Persona eliminada.",
+            "not_deleted": "Persona no eliminada."
+        }
+    },
+    "group": {
+        "title": {
+            "participant": "Grupo Participante",
+            "administrator": "Grupo Administrador"
+        },
+        "msg": {
+            "administrator_added": "Administrador incluido en el grupo.",
+            "administrator_removed": "Administrador eliminado del grupo",
+            "add_administrator": "¿Desea agregar una nueva persona y agregarla como administrador de este grupo?",
+            "participant_added": "Participante incluido en el grupo.",
+            "participant_removed": "Participante eliminado del grupo.",
+            "add_participant": "¿Desea agregar una nueva persona y agregarla como participante en este grupo?"
+        },
+        "bottom_bar": {
+            "participants": "Participantes",
+            "tasks": "Tareas",
+            "awards": "Premios",
+            "administrators": "Administradores"
+        },
+        "form": {
+            "msg_confirm_delete": "¿Desea eliminar este grupo?",
+            "msg_deleted": "Grupo eliminado",
+            "btn_cancel": "Cancelar"
+        },
+        "sub_title": {
+            "participants": "Participantes:",
+            "tasks": "Tareas:",
+            "awards": "Premios:",
+            "administrators": "Administradores:"
+        },
+        "msg_empty": {
+            "participants": "No se encontraron participantes.",
+            "tasks": "No se encontraron tareas.",
+            "awards": "No se encontraron premios.",
+            "administrators": "No se encontraron administradores."
+        },
+        "tooltip": {
+            "participants": "Nuevo participante",
+            "tasks": "Nueva tarea",
+            "awards": "Nuevo premio",
+            "administrators": "Nuevo administrador"
+        }
+    },
+    "my_groups": {
+        "title": "Mis grupos",
+        "msg_not_found": "No se encontraron grupos.",
+        "add": "Nuevo grupo",
+        "bottom_bar": {
+            "participate": "Yo participo",
+            "manage": "Administrador"
+        }
+    },
+    "award": {
+        "title": {
+            "penalty": "Castigo",
+            "reward": "Recompensa",
+            "default": "Premio"
+        },
+        "msg": {
+            "added": "Premio registrado.",
+            "removed": "Premio eliminado.",
+            "confirm_delete": "¿Quiere eliminar este premio?"
+        },
+        "panel": {
+            "group": "Grupo:",
+            "task": "Tarea:"
+        },
+        "form": {
+            "switch_reward": "Recompensa",
+            "switch_penalty": "Castigo",
+            "count": "Cantidad",
+            "points_adered": "Puntos otorgados:"
+        },
+        "btn_continue": "Continuar"
+    },
+    "my_awards": {
+        "title": "Mis premios",
+        "msg_not_found": "No se encontraron premios.",
+        "bottom_bar": {
+            "availables": "Disponible",
+            "requesteds": "Solicitado",
+            "receiveds": "Recibido"
+        }
+    },
+    "task": {
+        "form": {
+            "group_label": "Grupo:",
+            "reward": {
+                "label": "Recompensa",
+                "isEmpty": "Seleccione una recompensa."
+            },
+            "penalty_label": "Castigo",
+            "initial_term": "Término inicial",
+            "final_term": "Término final",
+            "repeat": {
+                "label": "Repetir:",
+                "items": {
+                    "0": "Ninguno",
+                    "1": "Día del mes",
+                    "2": "Día de la semana",
+                    "3": "Número de días"
+                }
+            }
+        },
+        "msg": {
+            "Saved": "Tarea guardada",
+            "removed": "Tarea eliminada.",
+            "confirm_delete": "¿Desea eliminar esta tarea?",
+            "date_IsEmpty": "Seleccione una fecha."
+        }
+    },
+    "my_tasks": {
+        "title": "Mis tareas",
+        "msg_not_found": "No se encontraron tareas.",
+        "bottom_bar": {
+            "availables": "Disponible",
+            "executeds": "Ejecutado",
+            "confirmeds": "Confirmado"
+        }
+    },
+    "global": {
+        "name_label": {
+            "read": "Nombre:",
+            "write": "Nombre"
+        },
+        "created_label": "Creado el:",
+        "disabled_label": "Deshabilitado en:",
+        "points_label": {
+            "read": "Puntos:",
+            "write": "Puntos"
+        },
+        "description_label": {
+            "read": "Descripción: ",
+            "write": "Descripción"
+        },
+        "btn_put": "Cambiar",
+        "btn_delete": "Eliminar",
+        "btn_save": "Grabar",
+        "msg": {
+            "text_IsEmpty": "Inserta texto.",
+            "value_IsEmpty": "Ingrese un valor.",
+            "invalid_data": "¡Datos no válidos!",
+            "not_found": "No se encontraron registros.",
+            "enter_more_characters": "Ingresa más de {qtdCaracteres} caracteres.",
+            "unknown_error": "Error desconocido."
+        }
+    }
+}

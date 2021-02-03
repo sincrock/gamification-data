@@ -1,7 +1,7 @@
 {
     "application": {
         "name": "Gamificação",
-        "version": "0.1",
+        "version": "1.0.0",
         "legalese": "Gamificação é a aplicação de elementos típicos do jogo (por exemplo, pontuação, competição com outros, regras de jogo) para outras áreas de atividade, normalmente como uma técnica de marketing online para encorajar o envolvimento com um produto ou serviço."
     },
     "login_page": {
@@ -34,7 +34,9 @@
                 "semanticsLabel": "Identificação de acesso",
                 "msg_IsEmpty": "Por favor insira a sua identificação."
             },
-            "send_button": "Enviar"
+            "send_button": "Enviar",
+            "msg_remember_send": "Uma mensagem com a senha deste usuário foi enviada para o e-mail cadastrado.",
+            "msg_remember_error": "Identificação não cadastrada."
         },
         "join_form": {
             "title": "Cadastre-se",
@@ -58,7 +60,9 @@
                 "semanticsLabel": "Senha de acesso",
                 "msg_IsEmpty": "Por favor insira a sua senha."
             },
-            "submit_button": "Submeter"
+            "submit_button": "Submeter",
+            "msg_join_submit": "Cadastro realizado.",
+            "msg_join_error": "Identificação ou e-mail já dacastrados."
         },
         "semanticsLabel": {
             "logo": "Imagem de logo deste App"
@@ -68,13 +72,9 @@
         "title": "Gamificação",
         "synchronizing": "Sincronizando...",
         "grid": {
-            "my_groups_participate": {
+            "my_groups": {
                 "title": "Meus Grupos",
-                "subtitle": "Participo"
-            },
-            "my_groups_manage": {
-                "title": "Meus Grupos",
-                "subtitle": "Administro"
+                "subtitle": ""
             },
             "my_tasks": {
                 "title": "Minhas Tarefas",
@@ -82,6 +82,10 @@
             },
             "my_awards": {
                 "title": "Meus Prêmios",
+                "subtitle": ""
+            },
+            "people": {
+                "title": "Pessoas",
                 "subtitle": ""
             }
         },
@@ -104,6 +108,183 @@
                 "title": "Sobre",
                 "subtitle": "Informações sobre este App."
             }
+        }
+    },
+    "config": {
+        "title": "Configurações",
+        "theme": {
+            "label": "Tema:",
+            "system": "Sistema",
+            "light": "Claro",
+            "dark": "Escuro"
+        }
+    },
+    "profile": {
+        "title": "Meu Perfil"
+    },
+    "person": {
+        "title_list": "Pessoas",
+        "title_form": "Pessoa",
+        "add": "Nova Pessoa",
+        "email": {
+            "label_read": "e-mail: ",
+            "label_write": "e-mail",
+            "text_IsEmpty": "Por favor insira um e-mail.",
+            "invalid": "Por favor insira um e-mail válido."
+        },
+        "msg": {
+            "saved": "Pessoa gravada.",
+            "not_found": "Nenhuma pessoa encontrada.",
+            "confirm_delete": "Deseja remover esta Pessoa?",
+            "deleted": "Pessoa removida.",
+            "not_deleted": "Pessoa não removida."
+        }
+    },
+    "group": {
+        "title": {
+            "participant": "Grupo Participante",
+            "administrator": "Grupo Administrador"
+        },
+        "msg": {
+            "administrator_added": "Administrador incluído do grupo.",
+            "administrator_removed": "Administrador removido do grupo.",
+            "add_administrator": "Deseja incluir uma nova Pessoa e adciona-la como Admninistrador deste Grupo?",
+            "participant_added": "Participante incluído no grupo.",
+            "participant_removed": "Participante removido do grupo.",
+            "add_participant": "Deseja incluir uma nova Pessoa e adciona-la como Participante deste Grupo?"
+        },
+        "bottom_bar": {
+            "participants": "Participantes",
+            "tasks": "Tarefas",
+            "awards": "Prêmios",
+            "administrators": "Administradores"
+        },
+        "form": {
+            "msg_confirm_delete": "Deseja excluir este grupo?",
+            "msg_deleted": "Grupo excluido.",
+            "btn_cancel": "Cancelar"
+        },
+        "sub_title": {
+            "participants": "Participantes:",
+            "tasks": "Tarefas:",
+            "awards": "Prêmios:",
+            "administrators": "Administradores:"
+        },
+        "msg_empty": {
+            "participants": "Nenhum participante encontrado.",
+            "tasks": "Nenhuma tarefa encontrada.",
+            "awards": "Nenhum prêmio encontrado.",
+            "administrators": "Nenhum administrador encontrado."
+        },
+        "tooltip": {
+            "participants": "Novo Participante",
+            "tasks": "Nova Tarefa",
+            "awards": "Novo Prêmio",
+            "administrators": "Novo Administrador"
+        }
+    },
+    "my_groups": {
+        "title": "Meus Grupos",
+        "msg_not_found": "Nenhum grupo encontrado.",
+        "add": "Novo Grupo",
+        "bottom_bar": {
+            "participate": "Participo",
+            "manage": "Administro"
+        }
+    },
+    "award": {
+        "title": {
+            "penalty": "Punição",
+            "reward": "Recompensa",
+            "default": "Prêmio"
+        },
+        "msg": {
+            "added": "Prêmio gravado.",
+            "removed": "Prêmio removido.",
+            "confirm_delete": "Deseja remover esta Prêmio?"
+        },
+        "panel": {
+            "group": "Grupo: ",
+            "task": "Tarefa: "
+        },
+        "form": {
+            "switch_reward": "Recompensa",
+            "switch_penalty": "Punição",
+            "count": "Quantidade",
+            "points_awarded": "Pontos concedida: "
+        },
+        "btn_continue": "Continuar"
+    },
+    "my_awards": {
+        "title": "Meus Prêmios",
+        "msg_not_found": "Nenhum prêmio encontrado.",
+        "bottom_bar": {
+            "availables": "Disponíveis",
+            "requesteds": "Solicitados",
+            "receiveds": "Recebidos"
+        }
+    },
+    "task": {
+        "form": {
+            "group_label": "Grupo: ",
+            "reward": {
+                "label": "Recompensa",
+                "isEmpty": "Por favor selecione uma recompensa."
+            },
+            "penalty_label": "Punição",
+            "initial_term": "Vigência inicial",
+            "final_term": "Vigência final",
+            "repeat": {
+                "label": "Repetição: ",
+                "items": {
+                    "0": "Nenhuma",
+                    "1": "Dia do Mês",
+                    "2": "Dia da Semana",
+                    "3": "Quantidade de dias"
+                }
+            }
+        },
+        "msg": {
+            "saved": "Tarefa gravada.",
+            "removed": "Tarefa removida.",
+            "confirm_delete": "Deseja remover esta Tarefa?",
+            "date_IsEmpty": "Por favor selecione uma data."
+        }
+    },
+    "my_tasks": {
+        "title": "Minhas Tarefas",
+        "msg_not_found": "Nenhuma tarefa encontrada.",
+        "bottom_bar": {
+            "availables": "Disponíveis",
+            "executeds": "Executadas",
+            "confirmeds": "Confirmadas"
+        }
+    },
+    "global": {
+        "name_label": {
+            "read": "Nome: ",
+            "write": "Nome"
+        },
+        "created_label": "Criado em: ",
+        "disabled_label": "Desativado em: ",
+        "points_label": {
+            "read": "Pontos: ",
+            "write": "Pontos"
+        },
+        "description_label": {
+            "read": "Descrição: ",
+            "write": "Descrição"
+        },
+        "btn_put": "Alterar",
+        "btn_delete": "Remover",
+        "btn_save": "Gravar",
+        "msg": {
+            "text_IsEmpty": "Por favor insira algum texto.",
+            "value_IsEmpty": "Por favor insira algum valor.",
+            "invalid_data": "Dados inválidos!",
+            "not_found": "Nenhum registro encontrado.",
+            "enter_more_characters": "Digite mais que {qtdCaracteres} caracter(es).",
+            "unknown_error": "Erro desconhecido."
         }
     }
 }
