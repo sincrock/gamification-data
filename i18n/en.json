@@ -115,7 +115,7 @@
         "theme": {
             "label": "Theme:",
             "system": "System",
-            "light": "Sure",
+            "light": "Light",
             "dark": "Dark"
         }
     },
@@ -127,13 +127,13 @@
         "title_form": "Person",
         "add": "New Person",
         "email": {
-            "label_read": "email:",
-            "label_write": "email",
+            "label_read": "e-mail: ",
+            "label_write": "e-mail",
             "text_IsEmpty": "Please enter an email.",
             "invalid": "Please enter a valid email."
         },
         "msg": {
-            "saved": "Recorded person.",
+            "saved": "Person saved.",
             "not_found": "No people found.",
             "confirm_delete": "Do you want to remove this Person?",
             "deleted": "Person removed.",
@@ -142,13 +142,13 @@
     },
     "group": {
         "title": {
-            "participant": "Participating Group",
+            "participant": "Participant Group",
             "administrator": "Administrator Group"
         },
         "msg": {
             "administrator_added": "Administrator included in the group.",
             "administrator_removed": "Administrator removed from group.",
-            "add_administrator": "Do you want to add a new Person and add them as an Administrator for this Group?",
+            "add_administrator": "Do you want to add a new Person and add them as an Administrator in this Group?",
             "participant_added": "Participant included in the group.",
             "participant_removed": "Participant removed from group.",
             "add_participant": "Do you want to add a new Person and add them as a Participant in this Group?"
@@ -188,30 +188,30 @@
         "msg_not_found": "No groups found.",
         "add": "New Group",
         "bottom_bar": {
-            "participate": "I participate",
-            "manage": "Admin"
+            "participate": "Participate",
+            "manage": "Manage"
         }
     },
     "award": {
         "title": {
-            "penalty": "Punishment",
+            "penalty": "Penalty",
             "reward": "Reward",
             "default": "Award"
         },
         "msg": {
-            "added": "Award recorded.",
-            "removed": "Prize removed.",
+            "added": "Award saved.",
+            "removed": "Award removed.",
             "confirm_delete": "Do you want to remove this Award?"
         },
         "panel": {
-            "group": "Group:",
-            "task": "Task:"
+            "group": "Group: ",
+            "task": "Task: "
         },
         "form": {
             "switch_reward": "Reward",
-            "switch_penalty": "Punishment",
-            "count": "Quantity",
-            "points_awarded": "Points awarded:"
+            "switch_penalty": "Penalty",
+            "count": "Count",
+            "points_awarded": "Points awarded: "
         },
         "btn_continue": "Continue"
     },
@@ -219,9 +219,9 @@
         "title": "My Awards",
         "msg_not_found": "No awards found.",
         "bottom_bar": {
-            "availables": "Available",
-            "requesteds": "Requested",
-            "receiveds": "Received"
+            "availables": "Availables",
+            "requesteds": "Requesteds",
+            "receiveds": "Receiveds"
         }
     },
     "task": {
@@ -231,7 +231,7 @@
                 "label": "Reward",
                 "isEmpty": "Please select a reward."
             },
-            "penalty_label": "Punishment",
+            "penalty_label": "Penalty",
             "initial_term": "Initial term",
             "final_term": "Final term",
             "repeat": {
@@ -255,9 +255,9 @@
         "title": "My Tasks",
         "msg_not_found": "No tasks found.",
         "bottom_bar": {
-            "availables": "Available",
-            "executeds": "Executed",
-            "confirmeds": "Confirmed"
+            "availables": "Availables",
+            "executeds": "Executeds",
+            "confirmeds": "Confirmeds"
         }
     },
     "global": {
@@ -268,22 +268,22 @@
         "created_label": "Created on:",
         "disabled_label": "Disabled at:",
         "points_label": {
-            "read": "Points:",
+            "read": "Points: ",
             "write": "Points"
         },
         "description_label": {
-            "read": "Description:",
+            "read": "Description: ",
             "write": "Description"
         },
         "btn_put": "Change",
         "btn_delete": "Remove",
-        "btn_save": "Record",
+        "btn_save": "Save",
         "msg": {
             "text_IsEmpty": "Please insert some text.",
             "value_IsEmpty": "Please enter some value.",
             "invalid_data": "Invalid data!",
             "not_found": "No records found.",
-            "enter_more_characters": "Enter more than {qtdCaracteres} characters (s).",
+            "enter_more_characters": "Enter more than {qtdCaracteres} character(s).",
             "unknown_error": "Unknown error."
         }
     }
