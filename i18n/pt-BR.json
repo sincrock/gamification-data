@@ -14,10 +14,10 @@
         "synchronizing": "Sincronizando...",
         "login_form": {
             "title": "Login",
-            "indetificarion": {
-                "label": "Identificação",
-                "semanticsLabel": "Identificação de acesso",
-                "msg_IsEmpty": "Por favor insira a sua identificação."
+            "email": {
+                "label": "e-mail",
+                "semanticsLabel": "e-mail",
+                "msg_IsEmpty": "Por favor insira o seu e-mail."
             },
             "password": {
                 "label": "Senha",
@@ -29,10 +29,10 @@
         },
         "password_remember_form": {
             "title": "Lembrar senhar",
-            "indetificarion": {
-                "label": "Identificação",
-                "semanticsLabel": "Identificação de acesso",
-                "msg_IsEmpty": "Por favor insira a sua identificação."
+            "email": {
+                "label": "e-mail",
+                "semanticsLabel": "e-mail",
+                "msg_IsEmpty": "Por favor insira o seu e-mail."
             },
             "send_button": "Enviar",
             "msg_remember_send": "Uma mensagem com a senha deste usuário foi enviada para o e-mail cadastrado.",
@@ -49,11 +49,6 @@
                 "label": "e-mail",
                 "semanticsLabel": "e-mail",
                 "msg_IsEmpty": "Por favor insira o seu e-mail."
-            },
-            "indetificarion": {
-                "label": "Identificação",
-                "semanticsLabel": "Identificação de acesso",
-                "msg_IsEmpty": "Por favor insira a sua identificação."
             },
             "password": {
                 "label": "Senha",
