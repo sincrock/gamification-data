@@ -6,63 +6,53 @@
     },
     "login_page": {
         "title": "Gamification",
-        "login_link": "Login",
-        "join_link": "Join",
-        "password_remember_link": "Remember password",
         "loading": "Loading...",
         "validating": "Validating...",
         "synchronizing": "Synchronizing...",
-        "login_form": {
-            "title": "Login",
-            "indetificarion": {
-                "label": "Identification",
-                "semanticsLabel": "Access identification",
-                "msg_IsEmpty": "Please enter your identification."
+        "panel": {
+            "link": {
+                "login": "Login",
+                "join": "Join",
+                "password_remember": "Remember password"
             },
-            "password": {
-                "label": "Password",
-                "semanticsLabel": "Access password",
-                "msg_IsEmpty": "Please enter your password."
+            "title": {
+                "login": "Login",
+                "join": "Join",
+                "password_remember": "Remember password"
             },
-            "enter_button": "Enter",
-            "msg_invalid_login": "Invalid identification or password!"
+            "form": {
+                "full_name": {
+                    "label": "Full Name",
+                    "semanticsLabel": "Full Name",
+                    "msg_IsEmpty": "Please enter your name."
+                },
+                "email": {
+                    "label": "e-mail",
+                    "semanticsLabel": "e-mail",
+                    "msg_IsEmpty": "Please enter your e-mail."
+                },
+                "password": {
+                    "label": "Password",
+                    "semanticsLabel": "Access password",
+                    "msg_IsEmpty": "Please enter your password."
+                }
+            },
+            "buttons": {
+                "enter": "Enter",
+                "send": "Send",
+                "submit": "Submit"
+            }
         },
-        "password_remember_form": {
-            "title": "Remember password",
-            "indetificarion": {
-                "label": "Identification",
-                "semanticsLabel": "Access identification",
-                "msg_IsEmpty": "Please enter your identification."
-            },
-            "send_button": "Send",
-            "msg_remember_send": "A message with this user's password has been sent to the registered email.",
-            "msg_remember_error": "Identification not registered."
-        },
-        "join_form": {
-            "title": "Join",
-            "name": {
-                "label": "Full Name",
-                "semanticsLabel": "Full Name",
-                "msg_IsEmpty": "Please enter your name."
-            },
-            "email": {
-                "label": "email",
-                "semanticsLabel": "email",
-                "msg_IsEmpty": "Please enter your email."
-            },
-            "indetificarion": {
-                "label": "Identification",
-                "semanticsLabel": "Access identification",
-                "msg_IsEmpty": "Please enter your identification."
-            },
-            "password": {
-                "label": "Password",
-                "semanticsLabel": "Access password",
-                "msg_IsEmpty": "Please enter your password."
-            },
-            "submit_button": "Submit",
-            "msg_join_submit": "Registration completed.",
-            "msg_join_error": "Identification or email already registered."
+        "msg": {
+            "invalid_login": "Invalid e-mail or password!",
+            "remember_send": "A message with this user's password has been sent to the registered email.",
+            "remember_error": "Identification not registered.",
+            "join_submit": "Registration completed.",
+            "join_error": "Identification or e-mail already registered.",
+            "password_too_weak": "The password provided is too weak.",
+            "account_already_exists": "The account already exists for that email.",
+            "user_not_found": "No user found for that email.",
+            "wrong_password": "Wrong password provided for that user."
         },
         "semanticsLabel": {
             "logo": "Logo image of this App"
@@ -126,12 +116,6 @@
         "title_list": "People",
         "title_form": "Person",
         "add": "New Person",
-        "email": {
-            "label_read": "e-mail: ",
-            "label_write": "e-mail",
-            "text_IsEmpty": "Please enter an email.",
-            "invalid": "Please enter a valid email."
-        },
         "msg": {
             "saved": "Person saved.",
             "not_found": "No people found.",
@@ -264,6 +248,12 @@
         "name_label": {
             "read": "Name:",
             "write": "Name"
+        },
+        "email": {
+            "label_read": "e-mail: ",
+            "label_write": "e-mail",
+            "text_IsEmpty": "Please enter an e-mail.",
+            "invalid": "Please enter a valid e-mail."
         },
         "created_label": "Created on:",
         "disabled_label": "Disabled at:",
