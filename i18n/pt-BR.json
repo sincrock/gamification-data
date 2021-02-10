@@ -6,61 +6,56 @@
     },
     "login_page": {
         "title": "Gamificação",
-        "login_link": "Login",
-        "join_link": "Cadastre-se",
-        "password_remember_link": "Lembrar senhar",
         "loading": "Carregando...",
         "validating": "Validando...",
         "synchronizing": "Sincronizando...",
-        "login_form": {
-            "title": "Login",
-            "email": {
-                "label": "e-mail",
-                "semanticsLabel": "e-mail",
-                "msg_IsEmpty": "Por favor insira o seu e-mail."
+        "panel": {
+            "link": {
+                "login": "Login",
+                "join": "Cadastre-se",
+                "password_remember": "Lembrar senhar"
             },
-            "password": {
-                "label": "Senha",
-                "semanticsLabel": "Senha de acesso",
-                "msg_IsEmpty": "Por favor insira a sua senha."
+            "title": {
+                "login": "Login",
+                "join": "Cadastre-se",
+                "password_remember": "Lembrar senhar"
             },
-            "enter_button": "Entrar",
-            "msg_invalid_login": "Identificação ou senha inválidos!"
+            "form": {
+                "full_name": {
+                    "label": "Nome Completo",
+                    "semanticsLabel": "Nome Completo",
+                    "msg_IsEmpty": "Por favor insira o seu nome."
+                },
+                "email": {
+                    "label": "e-mail",
+                    "semanticsLabel": "e-mail",
+                    "msg_IsEmpty": "Por favor insira o seu e-mail."
+                },
+                "password": {
+                    "label": "Senha",
+                    "semanticsLabel": "Senha de acesso",
+                    "msg_IsEmpty": "Por favor insira a sua senha."
+                }
+            },
+            "buttons": {
+                "enter": "Entrar",
+                "send": "Enviar",
+                "submit": "Submeter"
+            }
         },
-        "password_remember_form": {
-            "title": "Lembrar senhar",
-            "email": {
-                "label": "e-mail",
-                "semanticsLabel": "e-mail",
-                "msg_IsEmpty": "Por favor insira o seu e-mail."
-            },
-            "send_button": "Enviar",
-            "msg_remember_send": "Uma mensagem com a senha deste usuário foi enviada para o e-mail cadastrado.",
-            "msg_remember_error": "Identificação não cadastrada."
-        },
-        "join_form": {
-            "title": "Cadastre-se",
-            "name": {
-                "label": "Nome Completo",
-                "semanticsLabel": "Nome Completo",
-                "msg_IsEmpty": "Por favor insira o seu nome."
-            },
-            "email": {
-                "label": "e-mail",
-                "semanticsLabel": "e-mail",
-                "msg_IsEmpty": "Por favor insira o seu e-mail."
-            },
-            "password": {
-                "label": "Senha",
-                "semanticsLabel": "Senha de acesso",
-                "msg_IsEmpty": "Por favor insira a sua senha."
-            },
-            "submit_button": "Submeter",
-            "msg_join_submit": "Cadastro realizado.",
-            "msg_join_error": "Identificação ou e-mail já dacastrados."
+        "msg": {
+            "invalid_login": "Identificação ou senha inválidos!",
+            "remember_send": "Uma mensagem com a senha deste usuário foi enviada para o e-mail cadastrado.",
+            "remember_error": "Identificação não cadastrada.",
+            "join_submit": "Cadastro realizado.",
+            "join_error": "Identificação ou e-mail já dacastrados.",
+            "password_too_weak": "A senha fornecida é muito fraca.",
+            "account_already_exists": "A conta já existe para esse e-mail.",
+            "no_user_found": "Nenhum usuário encontrado para esse e-mail.",
+            "wrong_password": "Senha errada fornecida para esse usuário."
         },
         "semanticsLabel": {
-            "logo": "Imagem de logo deste App"
+            "logo": "Logo image of this App"
         }
     },
     "home_page": {
@@ -121,12 +116,6 @@
         "title_list": "Pessoas",
         "title_form": "Pessoa",
         "add": "Nova Pessoa",
-        "email": {
-            "label_read": "e-mail: ",
-            "label_write": "e-mail",
-            "text_IsEmpty": "Por favor insira um e-mail.",
-            "invalid": "Por favor insira um e-mail válido."
-        },
         "msg": {
             "saved": "Pessoa gravada.",
             "not_found": "Nenhuma pessoa encontrada.",
@@ -259,6 +248,12 @@
         "name_label": {
             "read": "Nome: ",
             "write": "Nome"
+        },
+        "email": {
+            "label_read": "e-mail: ",
+            "label_write": "e-mail",
+            "text_IsEmpty": "Por favor insira um e-mail.",
+            "invalid": "Por favor insira um e-mail válido."
         },
         "created_label": "Criado em: ",
         "disabled_label": "Desativado em: ",
