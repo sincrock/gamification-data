@@ -244,6 +244,22 @@
             "confirmeds": "Confirmadas"
         }
     },
+    "task_participant": {
+        "title": "Minha Tarefa",
+        "panel": {
+            "task": "Tarefa: ",
+            "participant": "Participante: "
+        },
+        "bottom_bar": {
+            "request": "Solicitação",
+            "response": "Resposta"
+        },
+        "msg": {
+            "saved": "Sua Tarefa foi gravada.",
+            "removed": "Sua Tarefa foi removida.",
+            "confirm_delete": "Deseja remover esta sua Tarefa?"
+        }
+    },
     "global": {
         "name_label": {
             "read": "Nome: ",

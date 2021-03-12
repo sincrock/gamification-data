@@ -6,63 +6,53 @@
     },
     "login_page": {
         "title": "Gamificación",
-        "login_link": "Iniciar sesión",
-        "join_link": "Registrarse",
-        "password_remember_link": "Recordar contraseña",
         "loading": "Cargando...",
         "validating": "Validando...",
         "synchronizing": "Sincronizando...",
-        "login_form": {
-            "title": "Iniciar sesión",
-            "indetificarion": {
-                "label": "Identificación",
-                "semanticsLabel": "Identificación de acceso",
-                "msg_IsEmpty": "Introduzca su identificación."
+        "panel": {
+            "link": {
+                "login": "Iniciar sesión",
+                "join": "Registrarse",
+                "password_remember": "Recordar contraseña"
             },
-            "password": {
-                "label": "Contraseña",
-                "semanticsLabel": "Contraseña de acceso",
-                "msg_IsEmpty": "Ingrese su contraseña."
+            "title": {
+                "login": "Iniciar sesión",
+                "join": "Registrarse",
+                "password_remember": "Recordar contraseña"
             },
-            "enter_button": "Enter",
-            "msg_invalid_login": "¡Identificación o contraseña no válidas!"
+            "form": {
+                "full_name": {
+                    "label": "Nombre completo",
+                    "semanticsLabel": "Nombre completo",
+                    "msg_IsEmpty": "Introduzca su nombre."
+                },
+                "email": {
+                    "label": "correo electrónico",
+                    "semanticsLabel": "correo electrónico",
+                    "msg_IsEmpty": "Ingrese su correo electrónico."
+                },
+                "password": {
+                    "label": "Contraseña",
+                    "semanticsLabel": "Contraseña de acceso",
+                    "msg_IsEmpty": "Ingrese su contraseña."
+                }
+            },
+            "buttons": {
+                "enter": "Entrar",
+                "send": "Enviar",
+                "submit": "Entregar"
+            }
         },
-        "password_remember_form": {
-            "title": "Recordar contraseña",
-            "indetificarion": {
-                "label": "Identificación",
-                "semanticsLabel": "Identificación de acceso",
-                "msg_IsEmpty": "Introduzca su identificación."
-            },
-            "send_button": "Enviar",
-            "msg_remember_send": "Se ha enviado un mensaje con la contraseña de este usuario al correo electrónico registrado.",
-            "msg_remember_error": "Identificación no registrada."
-        },
-        "join_form": {
-            "title": "Registrarse",
-            "name": {
-                "label": "Nombre completo",
-                "semanticsLabel": "Nombre completo",
-                "msg_IsEmpty": "Introduzca su nombre."
-            },
-            "email": {
-                "label": "correo electrónico",
-                "semanticsLabel": "correo electrónico",
-                "msg_IsEmpty": "Ingrese su correo electrónico."
-            },
-            "indetificarion": {
-                "label": "Identificación",
-                "semanticsLabel": "Identificación de acceso",
-                "msg_IsEmpty": "Introduzca su identificación."
-            },
-            "password": {
-                "label": "Contraseña",
-                "semanticsLabel": "Contraseña de acceso",
-                "msg_IsEmpty": "Ingrese su contraseña."
-            },
-            "submit_button": "Enviar",
-            "msg_join_submit": "Registro completado.",
-            "msg_join_error": "Identificación o correo electrónico ya registrado."
+        "msg": {
+            "invalid_login": "¡Correo electrónico o contraseña no válidos!",
+            "remember_send": "Se ha enviado un mensaje con la contraseña de este usuario al correo electrónico registrado.",
+            "remember_error": "Identificación no registrada.",
+            "join_submit": "Registro completado.",
+            "join_error": "Identificación o correo electrónico ya registrado.",
+            "password_too_weak": "La contraseña proporcionada es demasiado débil.",
+            "account_already_exists": "La cuenta ya existe para ese correo electrónico.",
+            "user_not_found": "No se encontró ningún usuario para ese correo electrónico.",
+            "wrong_password": "Se proporcionó una contraseña incorrecta para ese usuario."
         },
         "semanticsLabel": {
             "logo": "Imagen del logotipo de esta aplicación"
@@ -126,12 +116,6 @@
         "title_list": "Personas",
         "title_form": "Persona",
         "add": "Nueva persona",
-        "email": {
-            "label_read": "correo electrónico:",
-            "label_write": "correo electrónico",
-            "text_IsEmpty": "Introduzca un correo electrónico.",
-            "invalid": "Ingrese un correo electrónico válido."
-        },
         "msg": {
             "saved": "Persona grabada",
             "not_found": "No se encontraron personas.",
@@ -260,10 +244,32 @@
             "confirmeds": "Confirmado"
         }
     },
+    "task_participant": {
+        "title": "Mi tarea",
+        "panel": {
+            "task": "Tarea:",
+            "participant": "Participante:"
+        },
+        "bottom_bar": {
+            "request": "Solicitud",
+            "response": "Respuesta"
+        },
+        "msg": {
+            "saved": "Tu tarea guardada",
+            "removed": "Su tarea eliminada.",
+            "confirm_delete": "¿Desea eliminar su tarea?"
+        }
+    },
     "global": {
         "name_label": {
             "read": "Nombre:",
             "write": "Nombre"
+        },
+        "email": {
+            "label_read": "correo electrónico:",
+            "label_write": "correo electrónico",
+            "text_IsEmpty": "Por favor insira um e-mail.",
+            "invalid": "Por favor insira um e-mail válido."
         },
         "created_label": "Creado el:",
         "disabled_label": "Deshabilitado en:",
