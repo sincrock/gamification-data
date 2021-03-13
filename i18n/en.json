@@ -248,7 +248,22 @@
         "title": "My Task",
         "panel": {
             "task": "Task: ",
-            "participant": "Participant: "
+            "participant": "Participant: ",
+            "administratorResponse": "Administrator: "
+        },
+        "form": {
+            "countRequested": "Count: ",
+            "observationRequested": "Obs: ",
+            "responseType": {
+                "label": "Response Type: ",
+                "items": {
+                    "0": "N/A",
+                    "1": "OK",
+                    "2": "Denied"
+                }
+            },
+            "countResponse": "Qtd: ",
+            "observationResponse": "Obs: "
         },
         "bottom_bar": {
             "request": "Request",

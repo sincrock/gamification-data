@@ -248,7 +248,22 @@
         "title": "Minha Tarefa",
         "panel": {
             "task": "Tarefa: ",
-            "participant": "Participante: "
+            "participant": "Participante: ",
+            "administratorResponse": "Administrador: "
+        },
+        "form": {
+            "countRequested": "Qtd: ",
+            "observationRequested": "Obs: ",
+            "responseType": {
+                "label": "Tipo de Retorno: ",
+                "items": {
+                    "0": "N/A",
+                    "1": "Aprovado",
+                    "2": "Negado"
+                }
+            },
+            "countResponse": "Qtd: ",
+            "observationResponse": "Obs: "
         },
         "bottom_bar": {
             "request": "Solicitação",
