@@ -281,6 +281,7 @@
             "read": "Descrição: ",
             "write": "Descrição"
         },
+        "btn_options": "Opções",
         "btn_put": "Alterar",
         "btn_delete": "Remover",
         "btn_save": "Gravar",

@@ -281,6 +281,7 @@
             "read": "Description: ",
             "write": "Description"
         },
+        "btn_options": "Options",
         "btn_put": "Change",
         "btn_delete": "Remove",
         "btn_save": "Save",
