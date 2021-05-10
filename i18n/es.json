@@ -273,6 +273,7 @@
         },
         "created_label": "Creado el:",
         "disabled_label": "Deshabilitado en:",
+        "updated_label": "Actualizado en:",
         "points_label": {
             "read": "Puntos:",
             "write": "Puntos"

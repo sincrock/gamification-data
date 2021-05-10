@@ -288,6 +288,7 @@
         },
         "created_label": "Criado em: ",
         "disabled_label": "Desativado em: ",
+        "updated_label": "Atualizado em:",
         "points_label": {
             "read": "Pontos: ",
             "write": "Pontos"
