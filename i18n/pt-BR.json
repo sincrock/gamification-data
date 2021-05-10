@@ -51,7 +51,7 @@
             "join_error": "Identificação ou e-mail já dacastrados.",
             "password_too_weak": "A senha fornecida é muito fraca.",
             "account_already_exists": "A conta já existe para esse e-mail.",
-            "no_user_found": "Nenhum usuário encontrado para esse e-mail.",
+            "user_not_found": "Nenhum usuário encontrado para esse e-mail.",
             "wrong_password": "Senha errada fornecida para esse usuário."
         },
         "semanticsLabel": {
