@@ -130,6 +130,9 @@
             "administrator": "Administrator Group"
         },
         "msg": {
+            "saved": "Person saved.",
+            "removed": "Group removed.",
+            "confirm_delete": "Do you want to delete this group?",
             "administrator_added": "Administrator included in the group.",
             "administrator_removed": "Administrator removed from group.",
             "add_administrator": "Do you want to add a new Person and add them as an Administrator in this Group?",
@@ -142,11 +145,6 @@
             "tasks": "Tasks",
             "awards": "Awards",
             "administrators": "Administrators"
-        },
-        "form": {
-            "msg_confirm_delete": "Do you want to delete this group?",
-            "msg_deleted": "Group deleted.",
-            "btn_cancel": "Cancel"
         },
         "sub_title": {
             "participants": "Participants:",
@@ -277,7 +275,7 @@
     },
     "global": {
         "name_label": {
-            "read": "Name:",
+            "read": "Name: ",
             "write": "Name"
         },
         "email": {
@@ -286,7 +284,7 @@
             "text_IsEmpty": "Please enter an e-mail.",
             "invalid": "Please enter a valid e-mail."
         },
-        "created_label": "Created on:",
+        "created_label": "Created on: ",
         "disabled_label": "Disabled at:",
         "updated_label": "Updated at:",
         "points_label": {
@@ -301,6 +299,7 @@
         "btn_put": "Change",
         "btn_delete": "Remove",
         "btn_save": "Save",
+        "btn_cancel": "Cancel",
         "msg": {
             "text_IsEmpty": "Please insert some text.",
             "value_IsEmpty": "Please enter some value.",
