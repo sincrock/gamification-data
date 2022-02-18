@@ -77,6 +77,14 @@
             "people": {
                 "title": "People",
                 "subtitle": ""
+            },
+            "tasks_manage": {
+                "title": "Tasks Manage",
+                "subtitle": ""
+            },
+            "peoples_manage": {
+                "title": "Awards Manage",
+                "subtitle": ""
             }
         },
         "drawer": {
@@ -240,6 +248,16 @@
             "availables": "Availables",
             "executeds": "Executeds",
             "confirmeds": "Confirmeds"
+        }
+    },
+    "tasks_manage": {
+        "title": "Tasks Manage",
+        "msg_not_found": "No tasks found.",
+        "bottom_bar": {
+            "pending": "Pending",
+            "approved": "Approved",
+            "denied": "Denied",
+            "applied": "Applied"
         }
     },
     "task_participant": {

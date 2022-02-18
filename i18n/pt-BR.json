@@ -77,6 +77,14 @@
             "people": {
                 "title": "Pessoas",
                 "subtitle": ""
+            },
+            "tasks_manage": {
+                "title": "Tarefas Administro",
+                "subtitle": ""
+            },
+            "peoples_manage": {
+                "title": "Prêmios Administro",
+                "subtitle": ""
             }
         },
         "drawer": {
