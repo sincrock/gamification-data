@@ -244,6 +244,16 @@
             "confirmeds": "Confirmadas"
         }
     },
+    "tasks_manage": {
+        "title": "Tarefas Administro",
+        "msg_not_found": "Nenhuma tarefa encontrada.",
+        "bottom_bar": {
+            "pending": "Pendentes",
+            "approved": "Aprovadas",
+            "denied": "Negadas",
+            "applied": "Aprovadas"
+        }
+    },
     "task_participant": {
         "title": "Minha Tarefa",
         "panel": {
