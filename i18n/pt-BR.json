@@ -82,7 +82,7 @@
                 "title": "Tarefas Administro",
                 "subtitle": ""
             },
-            "peoples_manage": {
+            "awards_manage": {
                 "title": "Prêmios Administro",
                 "subtitle": ""
             }
@@ -260,6 +260,16 @@
             "approved": "Aprovadas",
             "denied": "Negadas",
             "applied": "Aprovadas"
+        }
+    },
+    "awards_manage": {
+        "title": "Prêmios Administro",
+        "msg_not_found": "Nenhum prêmio encontrado.",
+        "bottom_bar": {
+            "pending": "Pendentes",
+            "delivery": "Entregas",
+            "denied": "Negados",
+            "delivered": "Entregues"
         }
     },
     "task_participant": {

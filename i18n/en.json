@@ -82,7 +82,7 @@
                 "title": "Tasks Manage",
                 "subtitle": ""
             },
-            "peoples_manage": {
+            "awards_manage": {
                 "title": "Awards Manage",
                 "subtitle": ""
             }
@@ -258,6 +258,16 @@
             "approved": "Approved",
             "denied": "Denied",
             "applied": "Applied"
+        }
+    },
+    "awards_manage": {
+        "title": "Awards Manage",
+        "msg_not_found": "No awards found.",
+        "bottom_bar": {
+            "pending": "Pending",
+            "delivery": "Delivery",
+            "denied": "Denied",
+            "delivered": "Delivered"
         }
     },
     "task_participant": {
