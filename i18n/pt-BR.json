@@ -303,6 +303,37 @@
             "confirm_delete": "Deseja remover esta sua Tarefa?"
         }
     },
+    "award_participant": {
+        "title": "My Prêmio",
+        "panel": {
+            "task": "Prêmio: ",
+            "participant": "Participante: ",
+            "administratorResponse": "Administrador: "
+        },
+        "form": {
+            "countRequested": "Qtd: ",
+            "observationRequested": "Obs: ",
+            "responseType": {
+                "label": "Tipo de Retorno: ",
+                "items": {
+                    "0": "N/A",
+                    "1": "Aprovado",
+                    "2": "Negado"
+                }
+            },
+            "countResponse": "Qtd: ",
+            "observationResponse": "Obs: "
+        },
+        "bottom_bar": {
+            "request": "Solicitação",
+            "response": "Resposta"
+        },
+        "msg": {
+            "saved": "Seu Prêmio foi gravado.",
+            "removed": "Seu Prêmio foi removido.",
+            "confirm_delete": "Deseja remover este seu Prêmio?"
+        }
+    },
     "global": {
         "name_label": {
             "read": "Nome: ",
