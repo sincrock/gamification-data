@@ -301,6 +301,37 @@
             "confirm_delete": "Do you want to remove your Task?"
         }
     },
+    "award_participant": {
+        "title": "My Award",
+        "panel": {
+            "task": "Award: ",
+            "participant": "Participant: ",
+            "administratorResponse": "Administrator: "
+        },
+        "form": {
+            "countRequested": "Count: ",
+            "observationRequested": "Obs: ",
+            "responseType": {
+                "label": "Response Type: ",
+                "items": {
+                    "0": "N/A",
+                    "1": "OK",
+                    "2": "Denied"
+                }
+            },
+            "countResponse": "Qtd: ",
+            "observationResponse": "Obs: "
+        },
+        "bottom_bar": {
+            "request": "Request",
+            "response": "Response"
+        },
+        "msg": {
+            "saved": "Your Award saved.",
+            "removed": "Your Award removed.",
+            "confirm_delete": "Do you want to remove your Award?"
+        }
+    },
     "global": {
         "name_label": {
             "read": "Name: ",
