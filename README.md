@@ -1,2 +1,2 @@
-# gamification_data
+# gamification-data
 Gamification application data
